@@ -1,0 +1,63 @@
+
+
+.campaign-list {
+    margin-top: 20px;
+    padding: 20px;
+  .filter-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  input{
+    all: unset;
+  }
+  
+  .filter-data , .input-search{
+    color: greenyellow;
+    padding: 0.3em;
+    width: 14em;
+    border-bottom: 1px solid greenyellow;
+    cursor: pointer;
+  }
+  table {
+    color: #323232;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    th{
+      color: #777575;
+      padding: 8px;
+      border: 1px solid #ccc;
+    }
+    td {
+      padding: 8px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+
+    th {
+      background-color: greenyellow;
+    }
+
+    tr:nth-child(even) {
+      background-color: greenyellow;
+    }
+    tr:nth-child(odd) {
+        background-color: rgb(200, 239, 143);
+      }
+
+    tr:hover {
+      background-color: #ddd;
+    }
+  }
+  .active-inactive{
+    display: flex;
+    gap: 1em;
+    .active-icon{
+      color: green;
+    }
+    .inactive-icon{
+      color:red;
+    }
+  }
+}
