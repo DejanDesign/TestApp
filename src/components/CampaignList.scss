@@ -5,7 +5,8 @@
     padding: 20px;
   .filter-form {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
+    gap: 1em;
     margin-bottom: 10px;
   }
   input{
@@ -15,9 +16,13 @@
   .filter-data , .input-search{
     color: greenyellow;
     padding: 0.3em;
-    width: 14em;
+    min-width: 15em;
     border-bottom: 1px solid greenyellow;
     cursor: pointer;
+  }
+  .input-search{
+    display: flex;
+    justify-content: space-around;
   }
   table {
     color: #323232;
